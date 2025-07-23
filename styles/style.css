@@ -93,6 +93,7 @@ main > section{
 /*Team & Feature Related Design*/
 .teams{
     align-items: center;
+    justify-content: center;
 }
 .team-img-container{
     display: grid;
@@ -114,10 +115,14 @@ main > section{
     align-items: center;
     justify-content: center;
     text-align: center;
+    justify-items: center;
 }
 .facts-container{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    gap: 24px;
+    justify-items: center;
 }
 .fact-number{
     font-size: 2.8rem;
@@ -132,6 +137,24 @@ main > section{
 }
 .fact-description{
     max-width: 540px;
+}
+.our-sponsors{
+    align-items: center;
+}
+.sponsor-info{
+    max-width: 540px;
+    margin: 50px auto;
+    text-align: center;
+    align-items: center;
+}
+.sponsor-comapanies{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    align-items: center;
+    justify-items: center;
+}
+.sponsor-comapanies img{
+    filter: grayscale(100%);
 }
 @media screen and (max-width: 576px) {
     .navbar, 
